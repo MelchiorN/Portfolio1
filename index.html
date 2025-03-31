@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/uu.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+         <!-- Navigation -->
+        <nav class="entete">
+            <div class="logo"><span>C</span>odeur<b>.</b></div> 
+            <div class="menu">
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">A propos</a></li>
+                    <li><a href="">Compétence</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="reseaux">
+                <a href="#"> <i class="fab fa-youtube"></i></a>
+                <a href="#"> <i class="fab fa-facebook"></i></a>
+                <a href="#"> <i class="fab fa-linkedin"></i></a>
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-whatsapp"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                
+                
+            </div>
+        </nav>
+        <!-- Corps principal -->
+        <div class="corps">
+            <!-- Section gauche -->
+            <div class="Cgauche">
+                <span class="texte">Salut</span>
+                <h1>Je suis un <span id="texteDefile"></span></h1>
+                <p> 
+                    Software ingénieur | Analyste dévéloppeur, étudiant en deuxième d'informatique
+                    à l'Institut Africain d'Informatique (IAI-TOGO) ;passionné par  le développement 
+                    web et mobile,à la recherche d'unstage de formation et d'améloration de mes compétences.
+                </p>
+                <div class="btn2">
+                    <button>Télécharger Cv</button>
+                    <button> Contactez-moi</button>
+                    
+                </div>
+            </div>
+            <!-- Section droite -->
+            <div class="Cdroit">
+                <div class="img2">
+                    <img src="image/forme_r.png" alt="" id="mi">
+                    <img src="image/fig.png"      alt="">
+                </div>
+            </div>            
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#texteDefile', {
+      strings: ["Etudiant","Développeur", "Web Designer"],
+      loop:1,
+      startDelay: 100,
+      backSpeed: 100,
+
+      typeSpeed: 50,
+    });
+  </script>
+    
+</body>
+</html>
